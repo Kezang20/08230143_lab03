@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+
+<!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+<!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">MyPortfolio</h1>
+
+            <!-- Navigation Links -->
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- 🌙 Dark/Light Mode Toggle Button -->
+      <button id="toggle-theme">🌙</button>
+
+      <!-- Hamburger Menu for mobile-->
+      <button class="hamburger" id="hamburger">&#9776;</button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero fade-in">
+
+     <!-- Profile Picture -->
+    <img src="img.jpg" alt="Profile Picture" class="profile-img">
+    <h2>Hello, I'm <span>Kezang Dema</span></h2>
+    <p class="tagline">Future ICT Educator | Lifelong Learner | Tech Enthusiast</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section slide-up">
+    <h2>About Me</h2>
+    <p>I’m a passionate student pursuing my Bachelor’s in ICT at <strong>Samtse College of Education</strong>. My vision is to inspire curiosity and creativity in students by blending technology and teaching.</p>
+    <p>Beyond academics, I enjoy painting rocks, sketching, music, and exploring tools that make classrooms more engaging. This portfolio is a glimpse into my journey as a learner and future educator.</p>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section alt-bg">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <ul class="timeline">
+        <li><span class="year">2023–Present</span> B.Ed in ICT — Samtse College of Education</li>
+        <li><span class="year">2021–2022</span> High School — Focused on ICT, beginner Python</li>
+        <li><span class="year">Earlier</span> Middle School — First explored computers for projects</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section fade-in">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>Technical</h3>
+        <ul>
+          <li>HTML & CSS</li>
+          <li>Python (Beginner)</li>
+          <li>SQL Basics</li>
+          <li>Microsoft Office Suite</li>
+          <li>Google Workspace</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h3>Professional</h3>
+        <ul>
+          <li>Lesson Planning</li>
+          <li>ICT Integration</li>
+          <li>Teamwork</li>
+          <li>Communication</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section fade-in alt-bg">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+
+         <!-- Project Card 1 -->
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>A personal e-portfolio built with HTML and CSS.</p>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div class="project-card">
+          <h3>Social Media Lesson Plan</h3>
+          <p>A teaching plan on safe and responsible use of social media.</p>
+        </div>
+
+        <!-- Project Card 3 -->
+        <div class="project-card">
+          <h3>SQL Gym Management</h3>
+          <p>A simple database project managing members and sessions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section fade-in">
+    <h2>Contact</h2>
+    <p>Email me at <a href="mailto:08230143.sce@rub.edu.bt">08230143.sce@rub.edu.bt</a></p>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Kezang Dema. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Link to JS -->
+  <script src="script.js"></script>
+</body>
+</html>
